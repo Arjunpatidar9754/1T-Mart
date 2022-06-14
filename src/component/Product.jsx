@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux';
 import { addCart } from '../redux/action';
 
 export default function Product() {
-
+    
     const {id} = useParams();
     const [product, setProduct] = useState([]);
 
@@ -20,7 +20,7 @@ export default function Product() {
             const response = await fetch(`https://fakestoreapi.com/products/${id}`);
             setProduct(await response.json());
         }
-        getProduct();
+        getProduct();// eslint-disable-next-line
     }, [])
 
     const ShowProduct = () => {

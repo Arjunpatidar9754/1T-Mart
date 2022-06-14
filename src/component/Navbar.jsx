@@ -9,7 +9,7 @@ const MyNavbar = () => {
         <>
             <Navbar className="navbar-form navbar-fixed-top" bg="light" expand="lg" style={{ position:'sticky', top:'0', zIndex: '1000' }}>
                 <Container >
-                    <Navbar.Brand className="me-5" href="#"><span className="fw-bolder me-n1 fst-italic space-left2 space-right2 text-danger">1 T </span>mart</Navbar.Brand>
+                    <Navbar.Brand className="me-5" href="#"><span className="fw-bolder me-n1 fst-italic space-left2 space-right2 text-danger">1T </span>mart</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse className="justify-content-center" id="navbarScroll">
                         <Nav
